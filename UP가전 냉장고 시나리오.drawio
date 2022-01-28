@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T00:38:02.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="qSxeoSwwhkiwSwWu0j2z" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T00:38:47.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="xVVxWli3WmllGAjz-uwX" version="16.4.5" type="github">
   <diagram id="PRr5KbJ4Hunxx6pOFMLB" name="Page-1">
     <mxGraphModel dx="3076" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,6 +326,9 @@
         </mxCell>
         <mxCell id="s721L2qvat0YxnNet2jQ-158" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;FOTA 완료&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1258" y="1160" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X-u7Wit8Nf9BiI8jWkjN-1" value="냉장고 양쪽 문 open" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-519" y="120" width="127" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
