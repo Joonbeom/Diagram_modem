@@ -1,0 +1,796 @@
+<mxfile host="app.diagrams.net" modified="2022-12-19T08:37:38.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jr9Hd3qlNNMwKC6Hr9m7" version="20.6.2" type="github">
+  <diagram id="nxO6fjT1eBk0kTr1AOfz" name="Page-1">
+    <mxGraphModel dx="4907" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-1" value="Modem/VR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-2" value="Product" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-3" value="TTS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-4" value="LivingAI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="140" as="sourcePoint" />
+            <mxPoint x="540" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-10" value="음성&amp;nbsp;출수 명령" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="367" y="100" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="226.31" as="sourcePoint" />
+            <mxPoint x="1020" y="226.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="322" as="sourcePoint" />
+            <mxPoint x="780" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-14" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="849" y="277" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-20" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="369" y="367" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-21" value="120ML 출수 합니다&lt;br&gt;Text 멘트 생성" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="414" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="538.31" as="sourcePoint" />
+            <mxPoint x="780" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781" y="561.5" as="sourcePoint" />
+            <mxPoint x="1021" y="561.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-25" value="0xDB&lt;br&gt;0x05" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="848" y="521.5" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-121" value="Cloudlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-125" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540.0000000000002" y="179.31" as="sourcePoint" />
+            <mxPoint x="780.0000000000002" y="179.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-126" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="608" y="140" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-127" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="847" y="186.31" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-128" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780.0000000000002" y="367.16000000000014" as="sourcePoint" />
+            <mxPoint x="540.0000000000002" y="367.16000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-129" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="609" y="322.16" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-130" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="167.00000000000017" as="sourcePoint" />
+            <mxPoint x="300.0000000000002" y="167.00000000000017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-131" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="367" y="140" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-132" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780.0000000000002" y="207.00000000000023" as="sourcePoint" />
+            <mxPoint x="540.0000000000002" y="207.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-133" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="607" y="180" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-135" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="254.00000000000023" as="sourcePoint" />
+            <mxPoint x="780.0000000000002" y="254.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-136" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="847" y="227" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-139" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="351.4699999999999" as="sourcePoint" />
+            <mxPoint x="1020" y="351.4699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-140" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="847" y="324.15999999999997" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-141" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="397.30999999999995" as="sourcePoint" />
+            <mxPoint x="780" y="397.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-142" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="607" y="370" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-143" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300.0000000000002" y="434.30999999999995" as="sourcePoint" />
+            <mxPoint x="540" y="434.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-144" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="367" y="407" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-145" value="음성 서버" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-147" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="462" as="sourcePoint" />
+            <mxPoint x="60" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-148" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="489.30999999999995" as="sourcePoint" />
+            <mxPoint x="300" y="489.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-149" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="127" y="462" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-150" value="120ML 출수 합니다&lt;br&gt;Text&amp;nbsp;멘트 송신" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="344" y="497" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-152" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="592" as="sourcePoint" />
+            <mxPoint x="-180" y="592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-155" value="120ML 출수 합니다&lt;br&gt;음원 요청" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="557" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-156" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="580" as="sourcePoint" />
+            <mxPoint x="1030" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="580" />
+              <mxPoint x="1060" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-158" value="&lt;font color=&quot;#ff0000&quot;&gt;출수 시작&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="554.5" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-162" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="760" as="sourcePoint" />
+            <mxPoint x="-180" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-163" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="59" y="760" as="sourcePoint" />
+            <mxPoint x="59.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-164" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="760" as="sourcePoint" />
+            <mxPoint x="299.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-165" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="760" as="sourcePoint" />
+            <mxPoint x="539.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-166" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="760" as="sourcePoint" />
+            <mxPoint x="779.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-167" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;" parent="1" source="lK4pROn_KMnm5ZVSZit9-168" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1019.5" y="680" as="sourcePoint" />
+            <mxPoint x="1019.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-168" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1011" y="610" width="18" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-169" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="lK4pROn_KMnm5ZVSZit9-168" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="760" as="sourcePoint" />
+            <mxPoint x="1019.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-170" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="680.5" as="sourcePoint" />
+            <mxPoint x="790" y="710.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="680.5" />
+              <mxPoint x="820" y="710.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-171" value="&lt;font color=&quot;#ff3333&quot;&gt;네트워크가 원활하지 않습니다. 잠시 후 다시 시도해 주세요&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="782" y="645" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-172" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="771" y="710.5" width="18" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-173" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="lK4pROn_KMnm5ZVSZit9-172" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779.5" y="750.5" as="sourcePoint" />
+            <mxPoint x="779.5" y="170.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-175" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="639" as="sourcePoint" />
+            <mxPoint x="782" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-176" value="120ML 출수 합니다&lt;br&gt;음원" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="605" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-177" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;일시적인 Network 약전계로 인한&lt;br&gt;네트워크 연결 실패 또는 데이터 손실&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="560.5" width="350" height="108.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-179" value="Modem/VR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-180" value="Product" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-181" value="TTS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1760" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-182" value="LivingAI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1280" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-183" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1220.0000000000005" y="140" as="sourcePoint" />
+            <mxPoint x="-980" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-184" value="음성&amp;nbsp;출수 명령" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1153" y="100" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-185" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="325.30999999999995" as="sourcePoint" />
+            <mxPoint x="-500" y="325.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-186" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-500" y="421" as="sourcePoint" />
+            <mxPoint x="-740" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-187" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-671" y="376" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-188" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-980" y="514" as="sourcePoint" />
+            <mxPoint x="-1220.0000000000005" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-189" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1151" y="471" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-191" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1460.0000000000005" y="595.81" as="sourcePoint" />
+            <mxPoint x="-740" y="595.4999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-192" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-739" y="699.5" as="sourcePoint" />
+            <mxPoint x="-499" y="699.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-193" value="0xDB&lt;br&gt;0x07" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-672" y="659.5" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-194" value="Cloudlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1040" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-195" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-980" y="179.30999999999995" as="sourcePoint" />
+            <mxPoint x="-740" y="179.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-196" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-912" y="140" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-197" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-673" y="285.31" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-198" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-741" y="468.1600000000003" as="sourcePoint" />
+            <mxPoint x="-981" y="468.1600000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-199" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-912" y="423.16" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-200" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-980" y="167.00000000000023" as="sourcePoint" />
+            <mxPoint x="-1210" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-201" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1153" y="140" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-204" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-500" y="353.0000000000002" as="sourcePoint" />
+            <mxPoint x="-740" y="353.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-205" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-673" y="326" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-206" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="450.4699999999998" as="sourcePoint" />
+            <mxPoint x="-500" y="450.4699999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-207" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-673" y="423.15999999999997" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-208" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-981" y="498.30999999999995" as="sourcePoint" />
+            <mxPoint x="-741" y="498.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-209" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-914" y="471" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-210" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1220.0000000000005" y="538.3100000000002" as="sourcePoint" />
+            <mxPoint x="-980" y="538.3100000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-211" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1153" y="511" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-212" value="음성 서버" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-213" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1220.0000000000005" y="454" as="sourcePoint" />
+            <mxPoint x="-1460.0000000000005" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-214" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1460.0000000000005" y="481.3100000000002" as="sourcePoint" />
+            <mxPoint x="-1220.0000000000005" y="481.3100000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-215" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1393" y="454" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-221" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1700.0000000000005" y="760" as="sourcePoint" />
+            <mxPoint x="-1700.0000000000005" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-222" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1461" y="760" as="sourcePoint" />
+            <mxPoint x="-1460.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-223" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;" parent="1" source="lK4pROn_KMnm5ZVSZit9-249" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1221" y="760" as="sourcePoint" />
+            <mxPoint x="-1220.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-224" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-980" y="760" as="sourcePoint" />
+            <mxPoint x="-980.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-225" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="760" as="sourcePoint" />
+            <mxPoint x="-740.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-226" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-500" y="760" as="sourcePoint" />
+            <mxPoint x="-500.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-229" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="604.1699999999997" as="sourcePoint" />
+            <mxPoint x="-730" y="634.1699999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-700" y="604.17" />
+              <mxPoint x="-700" y="634.17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-230" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;네트워크가 원활하지 않습니다. 잠시 후 다시 시도해 주세요&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-738" y="568.67" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-231" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-749" y="634.17" width="18" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-232" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740.5" y="655.1699999999997" as="sourcePoint" />
+            <mxPoint x="-740.5" y="655.1700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-241" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-978.9999999999995" y="203" as="sourcePoint" />
+            <mxPoint x="-968.9999999999995" y="233" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-939" y="203" />
+              <mxPoint x="-939" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-242" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;ACK 5s Time out 재송신&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-989" y="177.5" width="159" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-243" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-988" y="233" width="18" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-244" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-978" y="289.30999999999995" as="sourcePoint" />
+            <mxPoint x="-737.9999999999995" y="289.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-245" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="250" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-249" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1229" y="140" width="18" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-250" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="lK4pROn_KMnm5ZVSZit9-249" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1221" y="760" as="sourcePoint" />
+            <mxPoint x="-1220.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-252" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;출수 명령&lt;br&gt;ACK 10s Time out&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1229" y="426.99999999999994" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-253" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-737.9999999999995" y="314.31000000000023" as="sourcePoint" />
+            <mxPoint x="-977.9999999999995" y="314.31000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-254" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-915" y="287.31" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-255" value="Time out" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1393" y="421" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lK4pROn_KMnm5ZVSZit9-257" value="Time out" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1153" y="560.5" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-1" value="Modem/VR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-2" value="Product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-3" value="TTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-4" value="LivingAI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1820" y="140" as="sourcePoint" />
+            <mxPoint x="2060" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-6" value="음성&amp;nbsp;출수 명령" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1887" y="100" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="226.30999999999995" as="sourcePoint" />
+            <mxPoint x="2540" y="226.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="322" as="sourcePoint" />
+            <mxPoint x="2300" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-9" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2369" y="277" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="410" as="sourcePoint" />
+            <mxPoint x="1820" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-11" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1889" y="367" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-12" value="120ML 출수 합니다&lt;br&gt;Text 멘트 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="414" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="538.31" as="sourcePoint" />
+            <mxPoint x="2300" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2301" y="561.5" as="sourcePoint" />
+            <mxPoint x="2541" y="561.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-15" value="0xDB&lt;br&gt;0x82, 0x06" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2368" y="521.5" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-16" value="Cloudlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="179.30999999999995" as="sourcePoint" />
+            <mxPoint x="2300" y="179.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-18" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2128" y="140" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-19" value="음성&amp;nbsp;출수 명령&lt;br&gt;0xD5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2367" y="186.31" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="367.1600000000001" as="sourcePoint" />
+            <mxPoint x="2060" y="367.1600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-21" value="음성 명령 ACK &lt;br&gt;출수 가능 여부0xD6 &quot;0000&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2129" y="322.16" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="167.00000000000023" as="sourcePoint" />
+            <mxPoint x="1820" y="167.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-23" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1887" y="140" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="207.00000000000023" as="sourcePoint" />
+            <mxPoint x="2060" y="207.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-25" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2127" y="180" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="254.00000000000023" as="sourcePoint" />
+            <mxPoint x="2300" y="254.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-27" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2367" y="227" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-28" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="351.4699999999998" as="sourcePoint" />
+            <mxPoint x="2540" y="351.4699999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-29" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2367" y="324.15999999999997" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-30" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="397.30999999999995" as="sourcePoint" />
+            <mxPoint x="2300" y="397.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-31" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2127" y="370" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-32" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1820" y="434.30999999999995" as="sourcePoint" />
+            <mxPoint x="2060" y="434.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-33" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1887" y="407" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-34" value="음성 서버" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1820" y="462" as="sourcePoint" />
+            <mxPoint x="1580" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-36" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="489.30999999999995" as="sourcePoint" />
+            <mxPoint x="1820" y="489.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-37" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1647" y="462" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-38" value="120ML 출수 합니다&lt;br&gt;Text&amp;nbsp;멘트 송신" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1864" y="497" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="579" as="sourcePoint" />
+            <mxPoint x="1340" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-40" value="120ML 출수 합니다&lt;br&gt;음원 요청" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="544" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="595" as="sourcePoint" />
+            <mxPoint x="2550" y="625" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2580" y="595" />
+              <mxPoint x="2580" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="760" as="sourcePoint" />
+            <mxPoint x="1340" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1579" y="760" as="sourcePoint" />
+            <mxPoint x="1579.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1819" y="760" as="sourcePoint" />
+            <mxPoint x="1819.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="760" as="sourcePoint" />
+            <mxPoint x="2059.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="760" as="sourcePoint" />
+            <mxPoint x="2299.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;" edge="1" parent="1" source="cGbNmoGs3udYNQQiUiNj-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2539.5" y="680" as="sourcePoint" />
+            <mxPoint x="2539.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2531" y="625" width="18" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="cGbNmoGs3udYNQQiUiNj-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="760" as="sourcePoint" />
+            <mxPoint x="2539.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="622.5" as="sourcePoint" />
+            <mxPoint x="2310" y="652.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2340" y="622.5" />
+              <mxPoint x="2340" y="652.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2291" y="652.5" width="18" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-53" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="cGbNmoGs3udYNQQiUiNj-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2299.5" y="716.5" as="sourcePoint" />
+            <mxPoint x="2299.5" y="136.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="611" as="sourcePoint" />
+            <mxPoint x="2302" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-55" value="120ML 출수 합니다&lt;br&gt;음원" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="577" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-57" value="120ML를 출수 합니다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="622.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-58" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="587.5000000000002" as="sourcePoint" />
+            <mxPoint x="2300" y="587.5000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGbNmoGs3udYNQQiUiNj-59" value="ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2367" y="560.5" width="94" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
